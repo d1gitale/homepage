@@ -26,11 +26,11 @@ export function Greeting() {
     }, []);
 
     return (
-        <div className="flex text-8xl h-[90vh] justify-center items-center cursor-default select-none">
+        <div className="flex text-2xl md:text-8xl h-[90vh] justify-center justify-items-center items-center cursor-default select-none">
             <p className="bg-black text-white mx-2 px-2">
                 Hi!
             </p>
-            <p className={`px-3 w-lg text-center transition-all duration-500 ${currentFont}`}>
+            <p className={`w-30 md:w-lg text-center transition-all duration-500 ${currentFont}`}>
                 digitale
             </p>
             <p className="bg-black text-white mx-2 px-2">
