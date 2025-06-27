@@ -30,7 +30,7 @@ export function Greeting() {
             <p className="bg-black text-white mx-2 px-2">
                 Hi!
             </p>
-            <p className={`px-3 transition-all duration-500 ${currentFont}`}>
+            <p className={`px-3 w-lg text-center transition-all duration-500 ${currentFont}`}>
                 digitale
             </p>
             <p className="bg-black text-white mx-2 px-2">
